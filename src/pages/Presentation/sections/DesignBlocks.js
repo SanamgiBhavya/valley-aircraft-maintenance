@@ -65,7 +65,7 @@ function DesignBlocks() {
             sx={{ mb: 2 }}
           />
           <MKTypography variant="h2" fontWeight="bold">
-            Huge collection of sections
+            Shop by Category
           </MKTypography>
           <MKTypography variant="body1" color="text">
             We have created multiple options for you to put together and customise into pixel

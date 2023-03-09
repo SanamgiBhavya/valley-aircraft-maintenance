@@ -11,6 +11,7 @@ import MKBox from "../../../../components/MKBox";
 import MKTypography from "../../../../components/MKTypography";
 
 function DefaultInfoCard({ color, icon, title, description, direction, small }) {
+  console.log('***************', icon)
   return (
     <MKBox lineHeight={1} p={direction === "center" ? 2 : 0} textAlign={direction}>
       {typeof icon === "string" ? (

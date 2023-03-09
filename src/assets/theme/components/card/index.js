@@ -4,7 +4,7 @@ import borders from "../../base/borders";
 import boxShadows from "../../base/boxShadows";
 
 // Material Kit 2 React Helper Function
-import rgba from "assets/theme/functions/rgba";
+import rgba from "../../functions/rgba";
 
 const { black, white } = colors;
 const { borderWidth, borderRadius } = borders;

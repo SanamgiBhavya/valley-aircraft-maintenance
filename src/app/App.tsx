@@ -2,14 +2,14 @@ import AppRoutes from './AppRoutes';
 import './App.css';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from '../assets/theme';
+import CssBaseline from "@mui/material/CssBaseline";
 
 function App() {
   return (
-    <div className="App">
-      <ThemeProvider theme={theme}>
-        <AppRoutes />
-      </ThemeProvider>
-    </div>
+    <ThemeProvider theme={theme}>
+    <CssBaseline />
+    <AppRoutes />
+    </ThemeProvider>
   );
 }
 

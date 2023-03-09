@@ -14,7 +14,7 @@ const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Material Kit 2",
+    name: "Valley Maintenance",
     image: logoCT,
     route: "/",
   },
@@ -74,7 +74,7 @@ export default {
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
+      All rights reserved. Copyright &copy; {date} Bhavya{" "}
       <MKTypography
         component="a"
         href="https://www.creative-tim.com"
@@ -83,7 +83,6 @@ export default {
         variant="button"
         fontWeight="regular"
       >
-        Creative Tim
       </MKTypography>
       .
     </MKTypography>

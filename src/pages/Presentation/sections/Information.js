@@ -34,7 +34,7 @@ function Information() {
                     Material Kit
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="All the material here"
               />
               <RotatingCardBack
                 image={bgBack}

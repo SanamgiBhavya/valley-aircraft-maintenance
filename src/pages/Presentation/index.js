@@ -10,15 +10,15 @@ import MKSocialButton from "../../components/MKSocialButton";
 // Material Kit 2 React examples
 import DefaultNavbar from "../../examples/Navbars/DefaultNavbar";
 import DefaultFooter from "../../examples/Footers/DefaultFooter";
-import FilledInfoCard from "../../examples/Cards/InfoCards/FilledInfoCard";
+// import FilledInfoCard from "../../examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
 import Counters from "./sections/Counters";
 import Information from "./sections/Information";
 import DesignBlocks from "./sections/DesignBlocks";
-import Pages from "./sections/Pages";
-import Testimonials from "./sections/Testimonials";
-import Download from "./sections/Download";
+// import Pages from "./sections/Pages";
+// import Testimonials from "./sections/Testimonials";
+// import Download from "./sections/Download";
 
 // Presentation page components
 import BuiltByDevelopers from "./components/BuiltByDevelopers";
@@ -98,11 +98,11 @@ function Presentation() {
         <Counters />
         <Information />
         <DesignBlocks />
-        <Pages />
+        {/* <Pages /> */}
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
         </Container>
-        <Container>
+        {/* <Container>
           <Grid container spacing={3}>
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
@@ -145,9 +145,9 @@ function Presentation() {
               />
             </Grid>
           </Grid>
-        </Container>
-        <Testimonials />
-        <Download />
+        </Container> */}
+        {/* <Testimonials /> */}
+        {/* <Download /> */}
         <MKBox pt={18} pb={6}>
           <Container>
             <Grid container spacing={3}>

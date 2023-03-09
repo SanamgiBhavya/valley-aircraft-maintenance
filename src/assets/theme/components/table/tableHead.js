@@ -2,7 +2,7 @@
 import borders from "../../base/borders";
 
 // Material Kit 2 React helper functions
-import pxToRem from "assets/theme/functions/pxToRem";
+import pxToRem from "../../functions/pxToRem";
 
 const { borderRadius } = borders;
 
