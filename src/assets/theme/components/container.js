@@ -1,8 +1,8 @@
 
-import breakpoints from "assets/theme/base/breakpoints";
+import breakpoints from "../base/breakpoints";
 
 // Material Kit 2 React helper functions
-import pxToRem from "assets/theme/functions/pxToRem";
+import pxToRem from "../functions/pxToRem";
 
 const {
   values: { sm, md, lg, xl, xxl },

@@ -3,7 +3,7 @@ import { createTheme } from "@mui/material/styles";
 import colors from "./base/colors";
 import breakpoints from "./base/breakpoints";
 import typography from "./base/typography";
-import boxShadow from "./functions/boxShadow";
+import boxShadows from "./base/boxShadows";
 import borders from "./base/borders";
 import globals from "./base/globals";
 
@@ -79,7 +79,6 @@ export default createTheme({
     pxToRem,
     rgba,
   },
-
   components: {
     MuiCssBaseline: {
       styleOverrides: {

@@ -1,5 +1,5 @@
-import colors from "assets/theme/base/colors";
-import boxShadow from "assets/theme/functions/boxShadow";
+import colors from "./colors";
+import boxShadow from "../functions/boxShadow";
 
 const { black, white, tabs, coloredShadows } = colors;
 
