@@ -1,11 +1,12 @@
-import TopHeader from "../components/headers/TopHeader";
-import Benefit from "../components/headers/Benifit";
+// import TopHeader from "../components copy/TopHeader";
+// import Benefit from "../components copy/MKTypography/Benifit";
 
 const Home = () => {
   return (
     <>
-      <Benefit/>
-      <TopHeader />
+      {/* <Benefit/>
+      <TopHeader /> */}
+      <div><p>hiii</p></div>
     </>
   );
 };
