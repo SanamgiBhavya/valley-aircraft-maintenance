@@ -33,7 +33,7 @@ function BuiltByDevelopers() {
       <Container>
         <Grid container item xs={12} lg={6} sx={{ ml: { xs: 0, lg: 6 } }}>
           <MKTypography variant="h4" color="white" fontWeight="bold">
-            Built by developers
+            Free shipping above 1000CAD
           </MKTypography>
           <MKTypography variant="h1" color="white" mb={1}>
             Complex Documentation

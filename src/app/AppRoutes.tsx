@@ -1,7 +1,9 @@
 import React, {useEffect} from 'react';
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Presentation from '../pages/Presentation';
-import routes from '../routes';
+import AboutUs from '../pages/LandingPages/AboutUs';
+import ContactUs from '../pages/LandingPages/ContactUs';
+import Author from '../pages/LandingPages/Author';
 
 const AppRoutes = () => {
   const { pathname } = useLocation();
@@ -10,22 +12,12 @@ const AppRoutes = () => {
     document.documentElement.scrollTop = 0;
   }, [pathname]);
 
-  const getRoutes = (allRoutes: any) =>
-  allRoutes.map((route: any) => {
-    if (route.collapse) {
-      return getRoutes(route.collapse);
-    }
-
-    if (route.route) {
-      return <Route path={route.route} element={route.component} key={route.key} />;
-    }
-
-    return null;
-  });
   return (
     <Routes>
-      {getRoutes(routes)}
       <Route path="/" element={<Presentation />}></Route>
+      <Route path="/about-us" element={<AboutUs />}></Route>
+      <Route path="/contact-us" element={<ContactUs />}></Route>
+      <Route path='/author' element={<Author />}></Route>
       <Route path="*" element={<Navigate to="/presentation" />} />
     </Routes>
   );

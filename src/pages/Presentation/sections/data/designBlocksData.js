@@ -1,10 +1,10 @@
 const imagesPrefix =
   "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
 
-export default [
+const designBlocksData = [
   {
-    title: "Design Blocks",
-    description: "A selection of 45 page sections that fit perfectly in any combination",
+    title: "Engine Parts",
+    description: "Suspendisse elementum posuere vestibulum. Praesent at turpis a ex feugiat aliquet. Vivamus rhoncus sapien id metus finibus, at mollis orci porttitor. Aenean congue vel justo in pharetra.",
     items: [
       {
         image: `${imagesPrefix}/headers.jpg`,
@@ -93,8 +93,8 @@ export default [
     ],
   },
   {
-    title: "Navigation",
-    description: "30+ components that will help go through the pages",
+    title: "Airframe Parts",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at augue non ante faucibus convallis. Etiam vitae dignissim lectus.",
     items: [
       {
         image: `${imagesPrefix}/navbars.jpg`,
@@ -117,8 +117,8 @@ export default [
     ],
   },
   {
-    title: "Input Areas",
-    description: "50+ elements that you need for text manipulation and insertion",
+    title: "Tools",
+    description: "Suspendisse elementum posuere vestibulum. Praesent at turpis a ex feugiat aliquet. Vivamus rhoncus sapien id metus finibus, at mollis orci porttitor. Aenean congue vel justo in pharetra.",
     items: [
       {
         image: `${imagesPrefix}/newsletters.jpg`,
@@ -147,8 +147,8 @@ export default [
     ],
   },
   {
-    title: "Attention Catchers",
-    description: "20+ Fully coded components that popup from different places of the screen",
+    title: "Covering Supplies",
+    description: "Suspendisse elementum posuere vestibulum. Praesent at turpis a ex feugiat aliquet. Vivamus rhoncus sapien id metus finibus, at mollis orci porttitor. Aenean congue vel justo in pharetra.",
     items: [
       {
         image: `${imagesPrefix}/alerts.jpg`,
@@ -177,8 +177,8 @@ export default [
     ],
   },
   {
-    title: "Elements",
-    description: "80+ carefully crafted small elements that come with multiple colors and shapes",
+    title: "Electrical",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at augue non ante faucibus convallis. Etiam vitae dignissim lectus.",
     items: [
       {
         image: `${imagesPrefix}/buttons.jpg`,
@@ -243,3 +243,5 @@ export default [
     ],
   },
 ];
+
+export default designBlocksData;
