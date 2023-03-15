@@ -40,14 +40,14 @@ const footerRoutes = {
         { name: "blog", href: "#" },
       ],
     },
-    {
-      name: "Location & Hours",
-      items: [
-        { name: "West - Corona, CA", href: "#" },
-        { name: "Southwest - Chandler, AZ", href: "#" },
-        { name: "Central - Fort Worth, TX", href: "#" },
-      ],
-    },
+    // {
+    //   name: "Location & Hours",
+    //   items: [
+    //     { name: "West - Corona, CA", href: "#" },
+    //     { name: "Southwest - Chandler, AZ", href: "#" },
+    //     { name: "Central - Fort Worth, TX", href: "#" },
+    //   ],
+    // },
     {
       name: "Contact",
       items: [
